@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Styles/Layout.css" rel="stylesheet" type="text/css" />
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+
+
+</head>
+<body>
+    <div id="header">
+        <h1>Suppliers Portal </h1>
+    </div>
+
+    <div id="nav">
+
+    </div>
+
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section id="section">
+            @RenderBody()
+        </section>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</body>
+</html>

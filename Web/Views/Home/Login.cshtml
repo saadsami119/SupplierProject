@@ -1,0 +1,32 @@
+﻿@model Infrastructure.Models.Users
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <table>
+
+        <tr>
+            <td>@Html.LabelFor(x => x.UserName)</td>
+            <td>@Html.TextBoxFor(x => x.UserName)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.LabelFor(x => x.Password)</td>
+            <td>@Html.PasswordFor(x => x.Password)  @TempData["Message"] </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+        </tr>
+    </table>
+}

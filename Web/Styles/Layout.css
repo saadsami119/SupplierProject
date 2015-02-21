@@ -1,0 +1,110 @@
+﻿#header {
+    background-color: #a8b5af;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#nav {
+    line-height: 10px;
+    background-color: #6ace12;
+    height: 600px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+#section {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+    fieldset legend {
+        display: none;
+    }
+
+    fieldset ol {
+        padding: 0;
+        list-style: none;
+    }
+
+        fieldset ol li {
+            padding-bottom: 5px;
+        }
+
+label {
+    color: red;
+    font-weight: normal;
+    font-family: Calibri;
+    display: grid;
+    width: 100px;
+    float: left;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    background-color: #d3dce0;
+    border: 1px solid #787878;
+    cursor: pointer;
+    padding: 5px;
+    font-size: x-small;
+    font-weight: lighter;
+    padding: 5px;
+    margin-right: 8px;
+    width: auto;
+    height: 25px;
+}
+
+input[type='text'],
+input[type='password'] {
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 0 5px #DDD inset;
+    color: black;
+    font-family: Calibri;
+    outline: none;
+    height: 20px;
+    width: 200px;
+}
+
+table
+{
+    border: 1px solid black;
+}
+
+th
+{
+   width: 300px; 
+}
+td
+{
+    width: 300px;
+}
+
+tr
+{
+    border: 1px solid black;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
