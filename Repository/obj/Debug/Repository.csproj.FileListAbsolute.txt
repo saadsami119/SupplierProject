@@ -31,3 +31,4 @@ C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Reposit
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.dll
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.pdb
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.ss1.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.s.resources

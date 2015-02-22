@@ -51,6 +51,7 @@ namespace Test
             r.RoleDescription = "asa";
 
             Users u  = new Users();
+            u.Id = 10;
             u.FirstName = "F";
             u.LastName = "F";
             u.UserName = "Z";
@@ -67,9 +68,6 @@ namespace Test
     {
         protected override void Load(ContainerBuilder builder)
         {
-
-            
-
             builder.RegisterAssemblyTypes(Assembly.Load("Services"))
 
                            .Where(t => t.Name.EndsWith("Service"))

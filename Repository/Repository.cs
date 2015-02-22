@@ -28,6 +28,8 @@ namespace Repository
                 throw new ArgumentNullException("entity");
             }
             this.DbSet.Add(entity);
+            this.dbcontext.Entry(entity).State = EntityState.Modified;
+
             this.dbcontext.SaveChanges();
         }
 

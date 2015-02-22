@@ -11,7 +11,7 @@ namespace Infrastructure.Models
     public class Users
     {   
         [Key]
-        public int UserId { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "First Name")]
