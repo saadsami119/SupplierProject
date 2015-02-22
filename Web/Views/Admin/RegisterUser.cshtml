@@ -1,4 +1,5 @@
 ﻿@model Infrastructure.Models.Users
+
 @{
     ViewBag.Title = "Register";
 }
@@ -8,7 +9,7 @@
 @using (Html.BeginForm("RegisterUser", "Admin", FormMethod.Post))
 {
 <table>
-
+    
     <tr>
         <td>@Html.LabelFor(x=>x.FirstName)</td>
         <td>@Html.TextBoxFor(x=>x.FirstName)</td>

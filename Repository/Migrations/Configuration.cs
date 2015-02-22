@@ -11,7 +11,6 @@ namespace Repository.Migrations
         {
             AutomaticMigrationsEnabled = true;
             AutomaticMigrationDataLossAllowed = true;
-            
         }
 
         protected override void Seed(Repository.Context.DataContext context)

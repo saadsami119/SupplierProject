@@ -12,9 +12,6 @@ namespace Infrastructure.DbContext
     public interface IContext
     {
         IDbSet<Users> Users { get; set; }
-      
-        IDbSet<Products> Products { get; set; }
-        IDbSet<Category> Category { get; set; }
         
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
         DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;

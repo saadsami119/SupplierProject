@@ -16,12 +16,6 @@ namespace Infrastructure.Repository
 
         void Update(T entity);
 
-        T FirstOrDefault(Func<T, bool> predicate);
-
-        T SingleOrDefault(Func<T, bool> predicate);
-
-        IEnumerable<T> Where(Func<T, bool> predicate);
-
         void InsertRange(IEnumerable<T> entites);
     }
 }

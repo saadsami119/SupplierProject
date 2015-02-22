@@ -41,25 +41,20 @@ namespace Test
             builder.RegisterType(typeof(UserService))
                .As(typeof(IUserService)).InstancePerLifetimeScope().InstancePerDependency();
 
-            
             var container = builder.Build();
 
             IUserService dc = container.Resolve<IUserService>();
-            
-            Roles r = new Roles();
-            r.RoleName = "Ss";
-            r.RoleDescription = "asa";
-
-            Users u  = new Users();
-            u.Id = 10;
-            u.FirstName = "F";
-            u.LastName = "F";
-            u.UserName = "Z";
-            u.Password = "sdsd";
-            u.Email ="sas";
-           
+            Users u = new Users();
+            u.Email = "d12";
+            u.FirstName = "d12";
+            u.LastName = "d12";
+            u.UserName = "d21";
+            u.Password = "d21";
+           Roles r = new Roles();
+            r.Name = "r1";
+            u.Roles.Add(r);
             dc.RegisterUser(u);
-           
+
         }
 
 
@@ -68,6 +63,9 @@ namespace Test
     {
         protected override void Load(ContainerBuilder builder)
         {
+
+            
+
             builder.RegisterAssemblyTypes(Assembly.Load("Services"))
 
                            .Where(t => t.Name.EndsWith("Service"))

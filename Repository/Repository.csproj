@@ -51,13 +51,33 @@
     <Compile Include="Migrations\201502151831392_initial.Designer.cs">
       <DependentUpon>201502151831392_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201502221136467_ss1.cs" />
-    <Compile Include="Migrations\201502221136467_ss1.Designer.cs">
-      <DependentUpon>201502221136467_ss1.cs</DependentUpon>
+    <Compile Include="Migrations\201502192016078_stored procedure.cs" />
+    <Compile Include="Migrations\201502192016078_stored procedure.Designer.cs">
+      <DependentUpon>201502192016078_stored procedure.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201502221800206_s.cs" />
-    <Compile Include="Migrations\201502221800206_s.Designer.cs">
-      <DependentUpon>201502221800206_s.cs</DependentUpon>
+    <Compile Include="Migrations\201502202345024_New classes added.cs" />
+    <Compile Include="Migrations\201502202345024_New classes added.Designer.cs">
+      <DependentUpon>201502202345024_New classes added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502210002579_New classes added again.cs" />
+    <Compile Include="Migrations\201502210002579_New classes added again.Designer.cs">
+      <DependentUpon>201502210002579_New classes added again.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502211024102_Employee class added.cs" />
+    <Compile Include="Migrations\201502211024102_Employee class added.Designer.cs">
+      <DependentUpon>201502211024102_Employee class added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502221827310_sp removed.cs" />
+    <Compile Include="Migrations\201502221827310_sp removed.Designer.cs">
+      <DependentUpon>201502221827310_sp removed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502221831462_Roles added.cs" />
+    <Compile Include="Migrations\201502221831462_Roles added.Designer.cs">
+      <DependentUpon>201502221831462_Roles added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502221838079_Roles added m-m.cs" />
+    <Compile Include="Migrations\201502221838079_Roles added m-m.Designer.cs">
+      <DependentUpon>201502221838079_Roles added m-m.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +97,26 @@
     <EmbeddedResource Include="Migrations\201502151831392_initial.resx">
       <DependentUpon>201502151831392_initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201502221136467_ss1.resx">
-      <DependentUpon>201502221136467_ss1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201502192016078_stored procedure.resx">
+      <DependentUpon>201502192016078_stored procedure.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201502221800206_s.resx">
-      <DependentUpon>201502221800206_s.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201502202345024_New classes added.resx">
+      <DependentUpon>201502202345024_New classes added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502210002579_New classes added again.resx">
+      <DependentUpon>201502210002579_New classes added again.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502211024102_Employee class added.resx">
+      <DependentUpon>201502211024102_Employee class added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502221827310_sp removed.resx">
+      <DependentUpon>201502221827310_sp removed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502221831462_Roles added.resx">
+      <DependentUpon>201502221831462_Roles added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502221838079_Roles added m-m.resx">
+      <DependentUpon>201502221838079_Roles added m-m.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

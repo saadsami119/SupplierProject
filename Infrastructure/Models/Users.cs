@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Infrastructure.Models
 {
     public class Users
-    {   
+    {
         [Key]
         public int Id { get; set; }
 
@@ -35,11 +35,12 @@ namespace Infrastructure.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
 
-        public virtual ICollection<Roles> Role { get; set; }
-
+        public virtual ICollection<Roles> Roles { get; set; }
+      
         public Users()
         {
-            this.Role = new List<Roles>();
+            Roles = new List<Roles>();
         }
+
     }
 }

@@ -30,7 +30,8 @@ namespace Web.Controllers
 
         [HttpPost]
         public ActionResult RegisterUser(Users user)
-        {   try
+        {
+            try
             {
                 if (ModelState.IsValid)
                 {
@@ -66,10 +67,5 @@ namespace Web.Controllers
            
         }
 
-        [HttpGet]
-        public void EditUser()
-        { 
-            
-        }
     }
 }

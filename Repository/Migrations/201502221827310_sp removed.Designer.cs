@@ -7,18 +7,18 @@ namespace Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.2-31219")]
-    public sealed partial class s : IMigrationMetadata
+    public sealed partial class spremoved : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(s));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(spremoved));
         
         string IMigrationMetadata.Id
         {
-            get { return "201502221800206_s"; }
+            get { return "201502221827310_sp removed"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target

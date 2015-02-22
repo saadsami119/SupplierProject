@@ -16,7 +16,6 @@ C:\Users\SaadSami\Documents\Visual Studio 2012\Projects\SupplierSoftware\Reposit
 C:\Users\SaadSami\Documents\Visual Studio 2012\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Newclassesadded.resources
 C:\Users\SaadSami\Documents\Visual Studio 2012\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Newclassesaddedagain.resources
 C:\Users\SaadSami\Documents\Visual Studio 2012\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Employeeclassadded.resources
-C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\Repository.dll.config
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\Repository.dll
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\Repository.pdb
@@ -26,9 +25,15 @@ C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Reposit
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\Infrastructure.pdb
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\EntityFramework.xml
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.initial.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.storedprocedure.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Newclassesadded.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Newclassesaddedagain.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Employeeclassadded.resources
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.csproj.GenerateResource.Cache
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.dll
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.pdb
-C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.ss1.resources
-C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.s.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.spremoved.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Rolesadded.resources
+C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Repository\obj\Debug\Repository.Migrations.Rolesaddedmm.resources

@@ -12,17 +12,13 @@ namespace Infrastructure.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
-		[MaxLength(10)]
-        public string RoleName { get; set; }
-
-        public string RoleDescription { get; set; }
+        public string Name { get; set; }
 
         public virtual ICollection<Users> Users { get; set; }
 
         public Roles()
-        { 
-			this.Users = new List<Users>();
+        {
+            Users = new List<Users>();
         }
     }
 }
