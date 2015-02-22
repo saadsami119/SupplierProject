@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbContext\IContext.cs" />
+    <Compile Include="Enums\RoleType.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Employees.cs" />
     <Compile Include="Models\Products.cs" />
@@ -54,12 +55,16 @@
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Service\ISecurityService.cs" />
     <Compile Include="Service\IService.cs" />
     <Compile Include="Service\IUserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Roles.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

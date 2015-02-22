@@ -18,8 +18,7 @@ namespace Repository.Context
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Users>().MapToStoredProcedures();
+
         }
 
         public IDbSet<Users> Users { get; set; }
@@ -27,7 +26,7 @@ namespace Repository.Context
         public IDbSet<Category> Category { get; set; }
         public IDbSet<Suppliers> Suppliers { get; set; }
         public IDbSet<Employees> Employees { get; set; }
-
+        public IDbSet<Roles> Roles { get; set; }
        
     }
 }

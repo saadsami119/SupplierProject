@@ -66,5 +66,10 @@ namespace Web.Controllers
            
         }
 
+        [HttpGet]
+        public void EditUser()
+        { 
+            
+        }
     }
 }

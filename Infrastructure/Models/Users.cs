@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace Infrastructure.Models
 {
     public class Users
-    {
+    {   
         [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "First Name")]
@@ -34,5 +34,12 @@ namespace Infrastructure.Models
         [Required(ErrorMessage = "*")]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        public virtual ICollection<Roles> Role { get; set; }
+
+        public Users()
+        {
+            this.Role = new List<Roles>();
+        }
     }
 }

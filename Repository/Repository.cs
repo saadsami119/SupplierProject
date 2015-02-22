@@ -19,7 +19,6 @@ namespace Repository
         {
             this.dbcontext = dbContext;
             this.DbSet = this.dbcontext.Set<T>();
-
         }
 
         public virtual void Create(T entity)
@@ -63,8 +62,23 @@ namespace Repository
             {
                 this.DbSet.Add(entity);
             }
-
             this.dbcontext.SaveChanges();
         }
+
+        public virtual T FirstOrDefault(Func<T, bool> predicate)
+        {  
+            return this.DbSet.FirstOrDefault(predicate);
+        }
+
+        public virtual T SingleOrDefault(Func<T, bool> predicate)
+        {
+            return this.DbSet.SingleOrDefault(predicate);
+        }
+
+        public virtual IEnumerable<T> Where(Func<T, bool> predicate)
+        {
+            return this.DbSet.Where(predicate);
+        }
+
     }
 }

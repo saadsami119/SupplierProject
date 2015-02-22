@@ -41,11 +41,24 @@ namespace Test
             builder.RegisterType(typeof(UserService))
                .As(typeof(IUserService)).InstancePerLifetimeScope().InstancePerDependency();
 
+            
             var container = builder.Build();
 
             IUserService dc = container.Resolve<IUserService>();
             
+            Roles r = new Roles();
+            r.RoleName = "Ss";
+            r.RoleDescription = "asa";
 
+            Users u  = new Users();
+            u.FirstName = "F";
+            u.LastName = "F";
+            u.UserName = "Z";
+            u.Password = "sdsd";
+            u.Email ="sas";
+           
+            dc.RegisterUser(u);
+           
         }
 
 

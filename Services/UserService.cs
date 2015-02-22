@@ -53,7 +53,7 @@ namespace Services
 
         public void DeleteUser(int UserId)
         {
-            Users user = _repository.GetAll().Single(x => x.Id == UserId);
+            Users user = _repository.GetAll().Single(x => x.UserId  == UserId);
             _repository.Delete(user);
         }
     }

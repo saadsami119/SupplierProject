@@ -16,4 +16,3 @@ C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Infrast
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Infrastructure\obj\Debug\Infrastructure.pdb
-C:\Users\SaadSami\Documents\Visual Studio 2013\Projects\SupplierSoftware\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
